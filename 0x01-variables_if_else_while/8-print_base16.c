@@ -3,21 +3,27 @@
 /**
  * main - Entry point of the program
  *
- * Description: This program prints the lowercase alphabet in reverse
+ * Description: This program prints all numbers of base 16 in lowercase
  * followed by a new line character.
  *
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	char letter;
+    char digit;
 
-	for (letter = 'z'; letter >= 'a'; letter--)
-	{
-		putchar(letter);
-	}
-	putchar('\n');
+    for (digit = '0'; digit <= '9'; digit++)
+    {
+        putchar(digit);
+    }
 
-	return (0);
+    for (digit = 'a'; digit <= 'f'; digit++)
+    {
+        putchar(digit);
+    }
+
+    putchar('\n');
+
+    return (0);
 }
 
