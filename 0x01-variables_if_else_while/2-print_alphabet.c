@@ -2,9 +2,7 @@
 
 /**
  * main - Entry point of the program
- *
- * Description: This function prints the lowercase alphabet followed by a newline.
- *
+ * Description: This function prints the lowercase alphabet.
  * Return: Always 0 (success)
  */
 int main(void)
