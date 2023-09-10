@@ -1,13 +1,22 @@
 #include <unistd.h>
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{	puts(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n" 59);
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-	return (1);
+int main(void) {
+    
+	char *message = "and that piece of art is useful - Dora Korpar, 2015-10-19\n";
+    
+	size_t len = strlen(message);
+    
+    
+	if (write(STDERR_FILENO, message, len) != len) {
+        
+	perror("write");
+    
+	return 1;
+    }
+
+    return 1;
 }
-
 
