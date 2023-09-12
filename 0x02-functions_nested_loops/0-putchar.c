@@ -4,7 +4,7 @@
 /**
  * main - Entry point of the function
  *
- *Description: return always 0 indique que le programme s'est exécuté.
+ *Description: Return always 0 indique que le programme s'est exécuté.
  */
 
 int main(void)
