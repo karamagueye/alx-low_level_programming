@@ -4,11 +4,12 @@
 /**
  * main - Entry point of the function
  *
- *Description: Return always 0 indique que le programme s'est exécuté.
+ * Return: always 0 indique que le programme s'est exécuté.
  */
 
 int main(void)
 {	printf("_putchar\n");
 
 	return (0);
+
 }
