@@ -2,9 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - this is the putchar function
- *Description: the code line use printf to print putchar.
+ * main - Entry point
+ *
+ *Return always 0(success)
  */
+
 int main(void)
 {	printf("_putchar\n");
 
