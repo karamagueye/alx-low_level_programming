@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - this is the putchar function
  *Description: the code line use printf to print putchar.
