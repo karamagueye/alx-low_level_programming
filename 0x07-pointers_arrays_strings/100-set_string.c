@@ -1,15 +1,14 @@
 #include "main.h"
-#include <unistd.h>
+#include <stdio.h> 
 
-/**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+/** 
+ * objective: fuction set a value of pointer
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
+ * description:Write a function that sets the value of a pointer 
+ */ 
+
+void set_string(char **s, char *to) 
+{ 
+	*s = to; 
 }
 
