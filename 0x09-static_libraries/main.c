@@ -5,11 +5,6 @@
 
 
 #define _MAIN_H_
-
-
-
-
-#define
 int _putchar(char c);
 
 
