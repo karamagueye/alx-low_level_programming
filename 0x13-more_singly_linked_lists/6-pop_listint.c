@@ -4,7 +4,7 @@
  * pop_listint -POP  deletes the head node of a linked list
  * @head: pointer to the the first element in the linked list
  *
- * return: the data inside the elements that was delected,
+ * Return: the data inside the elements that was delected,
  * or 0 if the list is empty
  */
 
