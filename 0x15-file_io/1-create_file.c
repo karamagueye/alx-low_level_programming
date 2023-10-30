@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * create-file - prog create a file
- * @filename: filename
- * @text_contebt: content writed in the file
- * Return: 1 if it success -1 if is failed
+ * create_file - Creates a new file and writes text content to it.
+ * @filename: The name of the file to be created.
+ * @text_content: The content to be written to the file.
+ * Return: 1 if the operation is successful, -1 if it fails.
  */
 
 int create_file(const char *filename, char *text_content)
