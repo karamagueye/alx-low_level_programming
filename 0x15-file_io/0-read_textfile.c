@@ -5,7 +5,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 /**
- * read_teatfile -  this reads a text file and print it to the posix stdo
+ * read_textfile -  this reads a text file and print it to the posix stdo
  * @filename: name of the file to read
  * @letters: number of letters it should read and print
  * Return: actual number of letters it could read ad print
