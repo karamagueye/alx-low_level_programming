@@ -1,10 +1,12 @@
+#include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
+#include <sys/stat.h>
+#include <sys/types.h>
 #include <fcntl.h>
 #include <elf.h>
-#include <string.h>
 #include <errno.h>
+#include <string.h>
 
 void print_error(const char *message) {
     fprintf(stderr, "%s\n", message);
@@ -100,7 +102,9 @@ int main(int argc, char *argv[]) {
     filename = argv[1];
     fd = open(filename, O_RDONLY);
     if (fd == -1) {
-        print_error(strerror(errno));
+	    perror("Erreur:");
+            print_error("Erreur lors de l'opération:");
+
     }
 
     if (read(fd, &header, sizeof(header)) != sizeof(header)) {
