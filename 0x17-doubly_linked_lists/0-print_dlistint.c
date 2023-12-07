@@ -4,9 +4,8 @@
 #include "lists.h"
 
 /**
- * Description:this function that prints all the elements, 
- * of a dlistint_t list.
- *
+ * Description: print_dlistint - print all the elements, of a
+ *dlistint_t list
  * @h: head of the list
  * Return: the number of nodes
  */
